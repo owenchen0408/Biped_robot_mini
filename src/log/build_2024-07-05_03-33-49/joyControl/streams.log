@@ -1,0 +1,40 @@
+[3.098s] Invoking command in '/home/ubuntu/ros2_ws/src/joyControl': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/joyControl/prefix_override:/home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/joyControl build --build-base /home/ubuntu/ros2_ws/src/build/joyControl/build install --record /home/ubuntu/ros2_ws/src/build/joyControl/install.log --single-version-externally-managed install_data
+[3.987s] running egg_info
+[3.988s] creating ../build/joyControl/joyControl.egg-info
+[3.989s] writing ../build/joyControl/joyControl.egg-info/PKG-INFO
+[3.990s] writing dependency_links to ../build/joyControl/joyControl.egg-info/dependency_links.txt
+[3.990s] writing entry points to ../build/joyControl/joyControl.egg-info/entry_points.txt
+[3.991s] writing requirements to ../build/joyControl/joyControl.egg-info/requires.txt
+[3.991s] writing top-level names to ../build/joyControl/joyControl.egg-info/top_level.txt
+[4.000s] writing manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'
+[4.126s] reading manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'
+[4.129s] writing manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'
+[4.130s] running build
+[4.131s] running build_py
+[4.131s] creating /home/ubuntu/ros2_ws/src/build/joyControl/build
+[4.131s] creating /home/ubuntu/ros2_ws/src/build/joyControl/build/lib
+[4.132s] creating /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl
+[4.132s] copying joyControl/joy_controller_orginal.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl
+[4.132s] copying joyControl/joy_controller.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl
+[4.133s] copying joyControl/__init__.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl
+[4.133s] running install
+[4.137s] running install_lib
+[4.143s] creating /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl
+[4.144s] copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/joy_controller_orginal.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl
+[4.145s] copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/joy_controller.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl
+[4.146s] copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/__init__.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl
+[4.148s] byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/joy_controller_orginal.py to joy_controller_orginal.cpython-38.pyc
+[4.155s] byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/joy_controller.py to joy_controller.cpython-38.pyc
+[4.157s] byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/__init__.py to __init__.cpython-38.pyc
+[4.158s] running install_data
+[4.159s] creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index
+[4.160s] creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index
+[4.160s] creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index/packages
+[4.161s] copying resource/joyControl -> /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index/packages
+[4.161s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/joyControl/share/joyControl
+[4.162s] running install_egg_info
+[4.167s] Copying ../build/joyControl/joyControl.egg-info to /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl-0.0.0-py3.8.egg-info
+[4.171s] running install_scripts
+[4.236s] Installing joystick script to /home/ubuntu/ros2_ws/src/install/joyControl/lib/joyControl
+[4.237s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/joyControl/install.log'
+[4.334s] Invoked command in '/home/ubuntu/ros2_ws/src/joyControl' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/joyControl/prefix_override:/home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/joyControl build --build-base /home/ubuntu/ros2_ws/src/build/joyControl/build install --record /home/ubuntu/ros2_ws/src/build/joyControl/install.log --single-version-externally-managed install_data

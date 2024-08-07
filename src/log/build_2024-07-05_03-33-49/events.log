@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000896] (-) JobUnselected: {'identifier': 'balance'}
+[0.001219] (-) JobUnselected: {'identifier': 'microstrain_inertial_description'}
+[0.001858] (-) JobUnselected: {'identifier': 'microstrain_inertial_driver'}
+[0.002389] (-) JobUnselected: {'identifier': 'microstrain_inertial_examples'}
+[0.002792] (-) JobUnselected: {'identifier': 'microstrain_inertial_msgs'}
+[0.002949] (-) JobUnselected: {'identifier': 'microstrain_inertial_rqt'}
+[0.003191] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003317] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.003403] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003547] (-) JobUnselected: {'identifier': 'wit_ros2_imu'}
+[0.003657] (joyControl) JobQueued: {'identifier': 'joyControl', 'dependencies': OrderedDict()}
+[0.003767] (joyControl) JobStarted: {'identifier': 'joyControl'}
+[0.099398] (-) TimerEvent: {}
+[0.201900] (-) TimerEvent: {}
+[0.302627] (-) TimerEvent: {}
+[0.403352] (-) TimerEvent: {}
+[0.504168] (-) TimerEvent: {}
+[0.605039] (-) TimerEvent: {}
+[0.705811] (-) TimerEvent: {}
+[0.806572] (-) TimerEvent: {}
+[0.907311] (-) TimerEvent: {}
+[1.008090] (-) TimerEvent: {}
+[1.108845] (-) TimerEvent: {}
+[1.210112] (-) TimerEvent: {}
+[1.311580] (-) TimerEvent: {}
+[1.412680] (-) TimerEvent: {}
+[1.513682] (-) TimerEvent: {}
+[1.614471] (-) TimerEvent: {}
+[1.716523] (-) TimerEvent: {}
+[1.817359] (-) TimerEvent: {}
+[1.918167] (-) TimerEvent: {}
+[2.019063] (-) TimerEvent: {}
+[2.119870] (-) TimerEvent: {}
+[2.220517] (-) TimerEvent: {}
+[2.321319] (-) TimerEvent: {}
+[2.422059] (-) TimerEvent: {}
+[2.522788] (-) TimerEvent: {}
+[2.623409] (-) TimerEvent: {}
+[2.724082] (-) TimerEvent: {}
+[2.824847] (-) TimerEvent: {}
+[2.925526] (-) TimerEvent: {}
+[3.026330] (-) TimerEvent: {}
+[3.099144] (joyControl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/joyControl', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/joyControl/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/joyControl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/joyControl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.148 54342 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/turtlesim/lib:/home/ubuntu/ros2_ws/install/microstrain_inertial_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/.vscode-server', 'TERM_PROGRAM_VERSION': '1.91.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-12aeee41-7c5a-44c5-827b-5dae5c4f5734.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6a90dcac77.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/wit_ros2_imu:/home/ubuntu/ros2_ws/install/turtlesim:/home/ubuntu/ros2_ws/install/py_pubsub:/home/ubuntu/ros2_ws/install/my_package:/home/ubuntu/ros2_ws/install/microstrain_inertial_rqt:/home/ubuntu/ros2_ws/install/microstrain_inertial_examples:/home/ubuntu/ros2_ws/install/microstrain_inertial_driver:/home/ubuntu/ros2_ws/install/microstrain_inertial_msgs:/home/ubuntu/ros2_ws/install/microstrain_inertial_description:/home/ubuntu/ros2_ws/install/balance:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/src/build/joyControl', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.148 54342 10.100.2.246 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/joyControl/prefix_override:/home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/build/wit_ros2_imu:/home/ubuntu/ros2_ws/install/wit_ros2_imu/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/microstrain_inertial_rqt/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/microstrain_inertial_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/balance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/home/ubuntu/bidepal_ws/src/joystick/joystick:/home/ubuntu/bidepal_ws/src/joystick/joystick', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/turtlesim:/home/ubuntu/ros2_ws/install/microstrain_inertial_examples:/home/ubuntu/ros2_ws/install/microstrain_inertial_driver:/home/ubuntu/ros2_ws/install/microstrain_inertial_msgs:/home/ubuntu/ros2_ws/install/microstrain_inertial_description'}, 'shell': False}
+[3.126536] (-) TimerEvent: {}
+[3.227673] (-) TimerEvent: {}
+[3.328438] (-) TimerEvent: {}
+[3.429203] (-) TimerEvent: {}
+[3.529867] (-) TimerEvent: {}
+[3.630479] (-) TimerEvent: {}
+[3.731090] (-) TimerEvent: {}
+[3.831700] (-) TimerEvent: {}
+[3.932372] (-) TimerEvent: {}
+[3.989945] (joyControl) StdoutLine: {'line': b'running egg_info\n'}
+[3.991698] (joyControl) StdoutLine: {'line': b'creating ../build/joyControl/joyControl.egg-info\n'}
+[3.992289] (joyControl) StdoutLine: {'line': b'writing ../build/joyControl/joyControl.egg-info/PKG-INFO\n'}
+[3.993274] (joyControl) StdoutLine: {'line': b'writing dependency_links to ../build/joyControl/joyControl.egg-info/dependency_links.txt\n'}
+[3.993823] (joyControl) StdoutLine: {'line': b'writing entry points to ../build/joyControl/joyControl.egg-info/entry_points.txt\n'}
+[3.994281] (joyControl) StdoutLine: {'line': b'writing requirements to ../build/joyControl/joyControl.egg-info/requires.txt\n'}
+[3.994732] (joyControl) StdoutLine: {'line': b'writing top-level names to ../build/joyControl/joyControl.egg-info/top_level.txt\n'}
+[4.003723] (joyControl) StdoutLine: {'line': b"writing manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'\n"}
+[4.032553] (-) TimerEvent: {}
+[4.129176] (joyControl) StdoutLine: {'line': b"reading manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'\n"}
+[4.132066] (joyControl) StdoutLine: {'line': b"writing manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'\n"}
+[4.132549] (-) TimerEvent: {}
+[4.133067] (joyControl) StdoutLine: {'line': b'running build\n'}
+[4.133938] (joyControl) StdoutLine: {'line': b'running build_py\n'}
+[4.134501] (joyControl) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/build/joyControl/build\n'}
+[4.134921] (joyControl) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/build/joyControl/build/lib\n'}
+[4.135307] (joyControl) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl\n'}
+[4.135648] (joyControl) StdoutLine: {'line': b'copying joyControl/joy_controller_orginal.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl\n'}
+[4.136063] (joyControl) StdoutLine: {'line': b'copying joyControl/joy_controller.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl\n'}
+[4.136401] (joyControl) StdoutLine: {'line': b'copying joyControl/__init__.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl\n'}
+[4.136805] (joyControl) StdoutLine: {'line': b'running install\n'}
+[4.140159] (joyControl) StdoutLine: {'line': b'running install_lib\n'}
+[4.145987] (joyControl) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl\n'}
+[4.146874] (joyControl) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/joy_controller_orginal.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl\n'}
+[4.148149] (joyControl) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/joy_controller.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl\n'}
+[4.149194] (joyControl) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/__init__.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl\n'}
+[4.151924] (joyControl) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/joy_controller_orginal.py to joy_controller_orginal.cpython-38.pyc\n'}
+[4.158606] (joyControl) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/joy_controller.py to joy_controller.cpython-38.pyc\n'}
+[4.160717] (joyControl) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/__init__.py to __init__.cpython-38.pyc\n'}
+[4.161753] (joyControl) StdoutLine: {'line': b'running install_data\n'}
+[4.162469] (joyControl) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index\n'}
+[4.163044] (joyControl) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index\n'}
+[4.163577] (joyControl) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index/packages\n'}
+[4.164245] (joyControl) StdoutLine: {'line': b'copying resource/joyControl -> /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index/packages\n'}
+[4.164631] (joyControl) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/src/install/joyControl/share/joyControl\n'}
+[4.165042] (joyControl) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.170299] (joyControl) StdoutLine: {'line': b'Copying ../build/joyControl/joyControl.egg-info to /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl-0.0.0-py3.8.egg-info\n'}
+[4.174455] (joyControl) StdoutLine: {'line': b'running install_scripts\n'}
+[4.232723] (-) TimerEvent: {}
+[4.238929] (joyControl) StdoutLine: {'line': b'Installing joystick script to /home/ubuntu/ros2_ws/src/install/joyControl/lib/joyControl\n'}
+[4.240626] (joyControl) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/joyControl/install.log'\n"}
+[4.333071] (-) TimerEvent: {}
+[4.337323] (joyControl) CommandEnded: {'returncode': 0}
+[4.394257] (joyControl) JobEnded: {'identifier': 'joyControl', 'rc': 0}
+[4.398270] (-) EventReactorShutdown: {}

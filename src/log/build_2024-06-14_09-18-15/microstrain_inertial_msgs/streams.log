@@ -1,0 +1,35 @@
+[0.149s] Invoking command in '/home/ubuntu/ros2_ws/src/build/microstrain_inertial_msgs': /usr/bin/cmake /home/ubuntu/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/install/microstrain_inertial_msgs
+[1.446s] -- The C compiler identification is GNU 9.4.0
+[1.447s] -- The CXX compiler identification is GNU 9.4.0
+[1.447s] -- Check for working C compiler: /usr/bin/cc
+[1.844s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.858s] -- Detecting C compiler ABI info
+[2.347s] -- Detecting C compiler ABI info - done
+[2.406s] -- Detecting C compile features
+[2.409s] -- Detecting C compile features - done
+[2.432s] -- Check for working CXX compiler: /usr/bin/c++
+[2.894s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.899s] -- Detecting CXX compiler ABI info
+[3.390s] -- Detecting CXX compiler ABI info - done
+[3.494s] -- Detecting CXX compile features
+[3.496s] -- Detecting CXX compile features - done
+[3.629s] CMake Error at CMakeLists.txt:4 (find_package):
+[3.630s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.630s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.633s]   CMake did not find one.
+[3.634s] 
+[3.635s]   Could not find a package configuration file provided by "catkin" with any
+[3.637s]   of the following names:
+[3.637s] 
+[3.639s]     catkinConfig.cmake
+[3.641s]     catkin-config.cmake
+[3.641s] 
+[3.648s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.664s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.666s]   provides a separate development package or SDK, be sure it has been
+[3.667s]   installed.
+[3.668s] 
+[3.668s] 
+[3.669s] -- Configuring incomplete, errors occurred!
+[3.670s] See also "/home/ubuntu/ros2_ws/src/build/microstrain_inertial_msgs/CMakeFiles/CMakeOutput.log".
+[3.678s] Invoked command in '/home/ubuntu/ros2_ws/src/build/microstrain_inertial_msgs' returned '1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/install/microstrain_inertial_msgs

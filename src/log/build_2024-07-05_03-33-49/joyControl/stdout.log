@@ -1,0 +1,38 @@
+running egg_info
+creating ../build/joyControl/joyControl.egg-info
+writing ../build/joyControl/joyControl.egg-info/PKG-INFO
+writing dependency_links to ../build/joyControl/joyControl.egg-info/dependency_links.txt
+writing entry points to ../build/joyControl/joyControl.egg-info/entry_points.txt
+writing requirements to ../build/joyControl/joyControl.egg-info/requires.txt
+writing top-level names to ../build/joyControl/joyControl.egg-info/top_level.txt
+writing manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'
+reading manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'
+writing manifest file '../build/joyControl/joyControl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/src/build/joyControl/build
+creating /home/ubuntu/ros2_ws/src/build/joyControl/build/lib
+creating /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl
+copying joyControl/joy_controller_orginal.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl
+copying joyControl/joy_controller.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl
+copying joyControl/__init__.py -> /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl
+copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/joy_controller_orginal.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl
+copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/joy_controller.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl
+copying /home/ubuntu/ros2_ws/src/build/joyControl/build/lib/joyControl/__init__.py -> /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl
+byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/joy_controller_orginal.py to joy_controller_orginal.cpython-38.pyc
+byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/joy_controller.py to joy_controller.cpython-38.pyc
+byte-compiling /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index/packages
+copying resource/joyControl -> /home/ubuntu/ros2_ws/src/install/joyControl/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/joyControl/share/joyControl
+running install_egg_info
+Copying ../build/joyControl/joyControl.egg-info to /home/ubuntu/ros2_ws/src/install/joyControl/lib/python3.8/site-packages/joyControl-0.0.0-py3.8.egg-info
+running install_scripts
+Installing joystick script to /home/ubuntu/ros2_ws/src/install/joyControl/lib/joyControl
+writing list of installed files to '/home/ubuntu/ros2_ws/src/build/joyControl/install.log'

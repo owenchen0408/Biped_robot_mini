@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/ros2_ws/src/build/microstrain_inertial_description': /usr/bin/cmake /home/ubuntu/ros2_ws/src/microstrain_inertial/microstrain_inertial_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/install/microstrain_inertial_description

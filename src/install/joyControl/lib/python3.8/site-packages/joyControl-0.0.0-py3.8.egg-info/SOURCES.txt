@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/joyControl/joyControl.egg-info/PKG-INFO
+../build/joyControl/joyControl.egg-info/SOURCES.txt
+../build/joyControl/joyControl.egg-info/dependency_links.txt
+../build/joyControl/joyControl.egg-info/entry_points.txt
+../build/joyControl/joyControl.egg-info/requires.txt
+../build/joyControl/joyControl.egg-info/top_level.txt
+../build/joyControl/joyControl.egg-info/zip-safe
+joyControl/__init__.py
+joyControl/joy_controller.py
+joyControl/joy_controller_orginal.py
+resource/joyControl
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
